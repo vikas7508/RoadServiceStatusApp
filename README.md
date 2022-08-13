@@ -30,7 +30,7 @@ This app is deisgned to accept multiple Road Ids at a time to check the status.
 1) Go to directory TFLRoadStatusApp/TFLRoadStatusApp.Test.
 2) Run the command 
       ```console
-        dotnet run test
+        dotnet test
       ```
 
 ### Assumptions:
