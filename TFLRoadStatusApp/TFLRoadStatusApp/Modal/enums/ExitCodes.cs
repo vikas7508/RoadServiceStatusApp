@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TFLRoadStatusApp.Modal.enums
+namespace TflRoadStatusApp.Modal.enums
 {
     public enum ExitCode
     {
