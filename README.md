@@ -3,7 +3,7 @@
 A console app to get the status of Road using api provided by TFL. App can run with a user defined command line argument or while running the app without any args.
 This app is deisgned to accept multiple Road Ids at a time to check the status.
 
-### Steps Needed Before running app (Prereuisites):
+### Steps Needed Before running app (Prerequisites):
 1) Installation of .Net Core SDK.
 2) Visual Studio 2022 as the app is created to target .net 6.0
 3) Add your TFL api_key , app_key in appsettings.json if needed.
