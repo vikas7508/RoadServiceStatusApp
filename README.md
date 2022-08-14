@@ -36,5 +36,5 @@ This app is deisgned to accept multiple Road Ids at a time to check the status.
 ### Assumptions:
 1) To avoid mixup of data between output for user and application logs, app is configured to use SeriLog to put logs to a log file. If not needed same can be disabled via appsetting.json file.
 2) App can run without giving any arguments while running the application. As it is configured to ask for user to provide Road Ids if not provided in command line argument.
-
+3) While designing the app, I have assumed that app will not grow much and hence have put the modal and infra in same project to avoid unwanted complexity. But if Clean Code or Onion architecture is our aim, then we can easily pull out the modal and infra to an independent project files with interface still in the current project.
 
